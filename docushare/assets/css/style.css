@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@font-face {font-family:xeroxbold; src: url('../fonts/xeroxsans-bold-webfont.woff2') format('woff2'), url('../fonts/xeroxsans-bold-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face {font-family: t; src: url('../fonts/xeroxsans-light-webfont.woff2') format('woff2'), url('../fonts/xeroxsans-light-webfont.woff') format('woff'); font-weight:normal; font-style: normal;}
+.mybg {background: url(../images/hero-1.jpg) no-repeat center top; background-size:cover;}
+.mybg h1 {font-family: "xeroxlight", arial, sans-serif; color:#fff; text-align:left; padding-top:300px;}
+.mybg p {font-family: "xeroxlight", arial, sans-serif; color:#fff; font-size:18px; text-align:left; padding-bottom:25px;}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {width: 100%;}
+.carousel-control {opacity:1; top:0%;}
+.carousel-control.left, .carousel-control.right {background-image:none;}
+.carousel-control.left {text-align:left; margin-left:15px; z-index:12; margin-top:15%;}
+.carousel-control.right {text-align:right; margin-right:15px; z-index:12; margin-top:15%;}
+.carousel-control .svg-slider-control {width:30px; height:30px;}
+.caption2 p {font-family: "xeroxlight", arial, sans-serif; color:#fff; text-shadow:none; font-size:18px; text-align:left;}
+.indicators-2{display:none;}
+#myCarousel2 .carousel-caption {left:0; right:20%; bottom:10; text-align:left; padding:15px; background:rgba(88,88,88,0.7); text-shadow:none;}
+.wrapper-for-fix {position:absolute; width:100%;}
+.full-width-bg {background-color:#fff;}
+.secondary-nav-wrapper {width:100%;}
+.secondary-nav {display:table; width:100%; padding-left:0; text-align:center; margin-bottom:0; position:relative;}
+.secondary-nav li {display:table-cell; width:20%; background-color:#34bcba; border-right:1px solid #fff; vertical-align:middle;}
+.secondary-nav li a {color:#fff; display:inline-block;}
+.secondary-nav li a.active {color:#fd9f13;}
+.secondary-nav li:hover {background-color:#86d1d6;}
+.secondary-nav li:last-child {border-right:none;}
+.secondary-nav li a:focus, .secondary-nav li a:hover {text-decoration: none;}
+.block {display: block; padding:15px;}
+.padtop75 {padding-top:75px;}
+.padtop75 h2 {font-size:30px; color:#fd9f13; padding-bottom:5px; border-bottom: solid 1px #595b5a;}
+.padtop40 {padding-top:40px;}
+.padtopbottom40{padding:40px 15px;}
+.padtop40 h2 {font-size:30px; color:#fd9f13; padding-bottom:5px; border-bottom: solid 1px #595b5a;}
+.icon-doi {text-align:center; padding:25px 0;}
+.text-doi h3 {color:#6daf3d; border-bottom: solid 1px #6daf3d; font-size:18px;}
+.simpleh3 h3 {color:#34bcba; font-size:18px;}
+.doiSimpleIcon {text-align:center; padding:25px 0;}
+.btn-padding {padding:15px;}
+.fx-green {border-radius:0; background-color:#6daf3d; color:#fff; padding:12px 50px; border:0;}
+.fx-green:hover {background-color:#c0df23; color:#fff;}
+.fx-green2 {border-radius:0; background-color:#6daf3d; color:#fff; padding:10px 60px; border:0;}
+.fx-green2:hover {background-color:#c0df23; color:#fff;}
+.caseStudies {padding-top:25px; background-color: #34bcba;font-weight: bold;}
+.caseStudiesText {padding-bottom:10%; border-bottom:solid 1px #000; height:100px;}
+.caseButton {border:0; border-radius:0; background-color:#6daf3d; font-weight:bold; color:#fff; margin-bottom:15px;}
+.caseButton:hover {background-color:#c0df23; color:#fff;}
+.liner {margin:10px 0;}
+.bodyList{list-style-type:disc; margin-left: 15px;}
+label {font-weight:normal;}
+.row15{padding-top:15px;}
+.submitpros{text-align:center; padding-top:15px;}
+.input-lg {border-radius:0;}
+.form-control {border-radius:0; background-color:#e6e6e6;}
+@media only screen and (min-width:320px) and (max-width:480px){
+	.icon-doi{width:100%; display:block; text-align:left; padding-left:25px;}
+  .text-doi{width:100%; display:block;}
+	.doiSimpleIcon{width:100%; display:block; text-align:left; padding-left:25px;}
+	.simpleh3{width:100%; display:block;}
+	.doiCenter{text-align:center; display:block; margin: 0 auto;}
+	.fx-green{width:80%}
+	.fx-green2{width:80%}
+	.carousel-indicators{display:none;}
+	.carousel-control{display:none;}
+	.carousel-caption{left:0 right:0 bottom:0; margin-bottom:-10px; padding-bottom:0px;}
+	.caseStudiesText{height:auto;}
+	.secondary-nav li a {font-size:9px;}
+	.block {padding:5px;}
+	.mybg h1 {padding-top:120px;}
+	.caption2 p {font-size:12px;}
+	#myCarousel2 .carousel-caption {left:0; right:0; bottom:0; text-align:left; padding:10px;}
+}
